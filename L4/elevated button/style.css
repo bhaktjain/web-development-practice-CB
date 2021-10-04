@@ -1,0 +1,23 @@
+.btn{
+    color: whitesmoke;
+    margin: 100px;
+    background-color: teal;
+    height: 100px;
+    width: 150px;
+    padding: 40px;
+    font-size: 24pt;
+    text-align: center;
+    box-shadow: grey 10px 10px 10px;
+    transition: 0.8s;
+}
+.btn:hover{
+    transform: translate(-10px,-10px);
+    box-shadow: grey 20px 20px 20px;
+    transition: 0.5s;
+}
+.btn:active{
+    transform: translate(5px,5px);
+    box-shadow: grey 5px 5px 3px;
+    transition: 0.2s;
+}
+    

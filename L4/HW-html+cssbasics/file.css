@@ -1,0 +1,63 @@
+body{
+    background-color: azure;
+}    
+
+.head{
+    font-size: 32pt;
+    text-shadow: 1px 1px;
+    display: inline-block;
+    margin-left: 570px;
+}
+.container{
+    height: 220px;
+    width: 600px;
+    background-color:azure;
+    margin: 5px 100px 100px 390px;
+    padding: 20px;
+    border-radius: 2px;
+}
+#fname{
+    width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+#lname{
+    width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+#num{
+    width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+#email{
+    width: 69%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+#submit{
+    width: 100%;
+  background-color: mediumslateblue;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+}

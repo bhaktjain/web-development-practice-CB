@@ -1,0 +1,35 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color: aquamarine;
+    color: rgb(255, 0, 0);
+    margin: 50px;
+    padding: 40px;
+    border: 1px solid black;
+}
+
+
+.one{
+    transform: scale(2,1)
+}
+.two{
+    transform: translate(100px,-10px);
+}
+.three{
+    transform: skew(10deg);
+}
+.four{
+    transform: rotate(40deg);
+}
+.five{
+    transform: scale(1.5,1) rotate(20deg) skewX(10deg);
+}
+.six:hover{
+    transition: 1s;
+    transform: rotate(40deg);
+    background-color: blue;
+    box-shadow: grey 10px 10px 10px;
+}
+.six:active{
+    background-color: hotpink;
+}

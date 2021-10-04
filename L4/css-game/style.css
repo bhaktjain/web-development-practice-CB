@@ -1,0 +1,77 @@
+body{
+    background-color: cornsilk;
+}
+
+.head{
+    margin-left: 350px;
+    margin-top: 80px;
+    font-size: 26pt;
+    font-weight: bold;
+    color: cornflowerblue;
+    font-variant: small-caps;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 10px;
+    lighting-color: cyan;
+}
+.game{
+    align-content: center;
+    height: 500px;
+    width: 700px;
+    background-color: azure;
+    margin-left: 200px ;
+    border:solid cadetblue 2px ;
+    
+    
+}
+.box{
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    border: solid black 1px;
+}
+.player{
+    background-color: darkslateblue;
+    transform: translateY(225px);
+    animation: move linear infinite 3s;
+    animation-play-state: paused;
+}
+.game:active .player{
+    animation-play-state: running;
+
+}
+.enemy{
+    margin-left: 120px;
+    height: 50px;
+    width: 50px;
+    background-color: crimson;
+    display: inline-block;
+    border: solid black 1px;
+    animation-name: bounce;
+    animation-iteration-count: infinite;
+}
+.enemy.one{
+    animation-duration: 2s;
+    animation-play-state: running;
+    animation-timing-function: linear;
+}
+.enemy.two{
+    animation-duration: 2s;
+    animation-play-state: running;
+    animation-timing-function: ease-in;
+}
+.enemy.three{
+    animation-duration: 2s;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+}
+@keyframes bounce {
+    50% {
+        transform: translateY(450px)
+    }
+}
+@keyframes move {
+    50% {
+        transform: translateY(225px) translateX(650px);
+    }
+}
+
